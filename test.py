@@ -1,5 +1,4 @@
-import nltk
-from nltk.stem.lancaster import LancasterStemmer
+
 import tflearn
 import random
 import json
@@ -7,8 +6,6 @@ import numpy as np
 import joblib
 import warnings
 from flask import Flask, request, jsonify
-import nltk
-nltk.download('punkt')
 
 app = Flask(__name__)
 
@@ -85,5 +82,4 @@ def predict_diseases():
 
 
 if __name__ == "__main__":
-    from waitress import serve
-    serve(app, host="0.0.0.0", port=8080)
+        app.run(debug=True)
