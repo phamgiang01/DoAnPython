@@ -1,6 +1,8 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import tflearn
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1' 
 import tensorflow as tf
 import random
 import json
