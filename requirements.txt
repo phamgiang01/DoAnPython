@@ -7,7 +7,6 @@ six==1.16.0
 nltk~=3.8.1
 streamlit
 scikit-learn
-tensorflow==2.12.0rc0
 flask~=3.0.3
 pillow==9.5.0
 
